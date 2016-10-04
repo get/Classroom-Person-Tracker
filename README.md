@@ -8,10 +8,10 @@ In this project, I devise a set of algorithms that utilize motion-based tracking
 <div style="text-align:center" align="center"><img src="figures/im3.png" width="550"></div>
 
 ## Code
-
-* multiObjectTracking.m is a slightly modified version of this Matlab example: http://www.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html. 
+ 
 * lucasKanadeCentroids.m is the algorithm that uses Lucas Kanade method to find clusters of optical flow vectors, and places a marker on the centroid of the cluster vectors.
 * lucasKanadeBounding.m is the algorithm that uses Lucas Kanade method to create bounding boxes around every optical flow vector, and merges overlapping bounding boxes to construct a final bounding box for each tracked subject in the frame.
+* multiObjectTracking.m is a slightly modified version of this Matlab example: http://www.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html.
 
 The .mat files contain results obtained using these scripts, which we utilized when constructing the graphs located in the "figures" directory.
 
