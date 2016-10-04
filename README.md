@@ -1,4 +1,5 @@
-# 6.869 Project
+# Preschool Classroom Person Tracker
+Final Project for Advances in Computer Vision (6.869 at MIT)
 
 See paper_submission.pdf for an outline of the project's background, development process, and results.
 
